@@ -1,0 +1,18 @@
+
+{
+    "name": "About Template",
+    "layout": "about",
+    "wrapper": "div#about_page.about_page[attribute-template=page-template-about]",
+    "sections": {
+        "main": {
+            "type": "main-page"
+        },
+        "content": {
+          "type": "rich-text"
+        }
+    },
+    "order": [
+        "main",
+        "content"
+    ]
+  }
