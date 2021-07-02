@@ -1,5 +1,9 @@
 {
   "current": {
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -22,6 +26,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Black.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",

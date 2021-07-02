@@ -75,6 +75,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/8_2x_2632e829-6dd7-45f7-a748-eb377c29ba8d.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
