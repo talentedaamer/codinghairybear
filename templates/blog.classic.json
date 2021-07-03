@@ -1,25 +1,32 @@
 {
-  "name": "Template Blog  Classic",
   "wrapper": "main#blog_classic.blog_classic[attribute-one=value]",
   "sections": {
     "main": {
-      "type": "blog-classic",
+      "type": "main-blog",
       "blocks": {
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "summary": {
-          "type": "summary"
+          "type": "summary",
+          "settings": {
+          }
         },
         "link": {
-          "type": "link"
+          "type": "link",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "summary",
         "link"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
