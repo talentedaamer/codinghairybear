@@ -1,5 +1,6 @@
 {
-  "wrapper": "main#blog_classic.blog_classic[attribute-one=value]",
+  "name": "Template Blog  Classic",
+  "wrapper": "main#blog_classic.div_class[attribute-one=value]",
   "sections": {
     "main": {
       "type": "blog-classic",
