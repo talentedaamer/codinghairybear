@@ -1,0 +1,18 @@
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+
+
+<div class="main-blog page-width">
+    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+
+    <div class="blog-articles">
+        {%- for article in blog.articles -%}
+        <div class="blog-articles__article article">
+            {% comment %} {%- render 'article-card' -%} {% endcomment %}            
+            {% assign title = 'Hello World' %}
+            {% render 'am-article-card', title: title, content: 'Hello World, this is a test post.' %}
+        </div>
+        {%- endfor -%}
+    </div>
+</div>
