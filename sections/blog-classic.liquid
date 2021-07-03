@@ -1,18 +1,8 @@
-<div class="blog-articles">
-  {%- for article in blog.articles -%}
-    <div class="blog-articles__article article">
-      <pre>
-        {{ article.tags | json }}
-      </pre>
-      {%- render 'article-card-classic', article: article -%}
-    </div>
-  {%- endfor -%}
-</div>
-
 {% schema %}
   {
     "name": "Blog Classic",
-    "settings": [],
+    "tag": "section",
+    "class": "spaced-section",
     "blocks": [
       {
         "type": "title",
@@ -44,10 +34,6 @@
         "limit": 1
       }
     ]
-{% schema %}
-  {
-    "name": "Blog Classic",
-    "settings": []
   }
 {% endschema %}
 
