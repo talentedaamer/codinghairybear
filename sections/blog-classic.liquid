@@ -1,0 +1,54 @@
+<div class="blog-articles">
+  {%- for article in blog.articles -%}
+    <div class="blog-articles__article article">
+      <pre>
+        {{ article.tags | json }}
+      </pre>
+      {%- render 'article-card-classic', article: article -%}
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Blog Classic",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "title",
+        "name": "t:sections.main-blog.blocks.title.name",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "show_date",
+            "default": true,
+            "label": "t:sections.main-blog.blocks.title.settings.show_date.label"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_author",
+            "default": false,
+            "label": "t:sections.main-blog.blocks.title.settings.show_author.label"
+          }
+        ]
+      },
+      {
+        "type": "summary",
+        "name": "t:sections.main-blog.blocks.summary.name",
+        "limit": 1
+      },
+      {
+        "type": "link",
+        "name": "t:sections.main-blog.blocks.link.name",
+        "limit": 1
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
