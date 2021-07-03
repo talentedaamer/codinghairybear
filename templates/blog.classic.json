@@ -2,7 +2,7 @@
   "wrapper": "main#blog_classic.blog_classic[attribute-one=value]",
   "sections": {
     "main": {
-      "type": "main-blog",
+      "type": "blog-classic",
       "blocks": {
         "title": {
           "type": "title",
