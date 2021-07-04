@@ -1,18 +1,17 @@
 {
-  "name": "Template Blog  Classic",
   "wrapper": "main#blog_classic.div_class[attribute-one=value]",
   "sections": {
     "main": {
       "type": "blog-classic",
       "blocks": {
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "title",
-        "summary",
-        "link"
+        "title"
       ],
       "settings": {
       }
