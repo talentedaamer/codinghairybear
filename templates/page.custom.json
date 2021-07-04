@@ -1,0 +1,12 @@
+{
+    "name": "Template Page Custom",
+    "wrapper": "main#blog_classic.div_class[attribute-one=value]",
+    "sections": {
+      "main": {
+        "type": "page-custom"
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }

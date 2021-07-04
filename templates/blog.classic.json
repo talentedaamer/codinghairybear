@@ -6,19 +6,7 @@
       "type": "blog-classic",
       "blocks": {
         "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "summary": {
-          "type": "summary",
-          "settings": {
-          }
-        },
-        "link": {
-          "type": "link",
-          "settings": {
-          }
+          "type": "title"
         }
       },
       "block_order": [
