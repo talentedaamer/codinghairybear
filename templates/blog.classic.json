@@ -1,5 +1,4 @@
 {
-  "wrapper": "main#blog_classic.div_class[attribute-one=value]",
   "sections": {
     "main": {
       "type": "blog-classic",
