@@ -1,3 +1,5 @@
+<p>blog-classic-section</p>
+
 {% schema %}
   {
     "name": "Blog Classic",
@@ -6,32 +8,7 @@
     "blocks": [
       {
         "type": "title",
-        "name": "t:sections.main-blog.blocks.title.name",
-        "limit": 1,
-        "settings": [
-          {
-            "type": "checkbox",
-            "id": "show_date",
-            "default": true,
-            "label": "t:sections.main-blog.blocks.title.settings.show_date.label"
-          },
-          {
-            "type": "checkbox",
-            "id": "show_author",
-            "default": false,
-            "label": "t:sections.main-blog.blocks.title.settings.show_author.label"
-          }
-        ]
-      },
-      {
-        "type": "summary",
-        "name": "t:sections.main-blog.blocks.summary.name",
-        "limit": 1
-      },
-      {
-        "type": "link",
-        "name": "t:sections.main-blog.blocks.link.name",
-        "limit": 1
+        "name": "post-title"
       }
     ]
   }
