@@ -1,5 +1,5 @@
 {
-  "wrapper": "main#blog_classic.div_class[attribute-one=value]",
+  "wrapper": "div#page_custom.page_custom",
   "sections": {
     "main": {
       "type": "page-custom",

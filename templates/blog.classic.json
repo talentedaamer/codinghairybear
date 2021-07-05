@@ -4,11 +4,25 @@
       "type": "blog-classic",
       "blocks": {
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
+        },
+        "summary": {
+          "type": "summary",
+          "settings": {
+          }
+        },
+        "link": {
+          "type": "link",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "title"
+        "title",
+        "summary",
+        "link"
       ],
       "settings": {
       }
