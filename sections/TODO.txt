@@ -1,0 +1,7 @@
+1. main-banner
+    1. verticle text position { top | middle | bottom }
+    2. horizontal text position { left | center | right }
+    3. text options { heading, subheading, button }
+    4. settings { padding, background color, background transparency, text color, button color }
+    5. Image { scroll or fixed, height adaption settings }
+    
