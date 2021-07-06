@@ -1,0 +1,34 @@
+.main-banner {
+
+}
+
+@media screen and (max-width: 749px) {}
+
+@media screen and (min-width: 750px) {
+  .main-banner__media {
+    position: absolute;
+    height: 100%;
+  }
+}
+
+.banner__media .placeholder-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .banner__box > * + .banner__buttons {
+    margin-top: 2rem;
+  }
+}
+
+.banner__content .btn + .btn {
+  margin-top: 1.5rem;
+}
+
+.banner__content .btn {
+  margin-right: 2rem;
+}
