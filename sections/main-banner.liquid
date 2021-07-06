@@ -82,7 +82,10 @@
 
 {% endcomment %}
 
-<p>Main Banner</p>
+<div id="main-banner-{{ section.id }}" class="main-banner{% if section.settings.main_banner_image_fixed and section.settings.image != blank %} banner--fixed{% endif %}">
+<p>Main Banner Image</p>
+{{ section.settings | json }}
+</div>
 
 {% schema %}
 {
@@ -92,18 +95,18 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "main_banner_image",
+      "id": "image",
       "label": "Background Image"
     },
     {
       "type": "checkbox",
-      "id": "main_banner_image_fixed",
+      "id": "fixed",
       "default": true,
       "label": "Fixed Image"
     },
     {
       "type": "select",
-      "id": "verticle_text_box_position",
+      "id": "text_box_position_y",
       "label": "Verticle Text Box Position",
       "options": [
         {
@@ -123,7 +126,7 @@
     },
     {
       "type": "select",
-      "id": "horizontal_text_box_position",
+      "id": "text_box_position_x",
       "label": "Horizontal Text Box Position",
       "options": [
         {
