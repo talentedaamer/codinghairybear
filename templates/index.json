@@ -328,6 +328,45 @@
         "color_scheme": "accent-2",
         "full_width": true
       }
+    },
+    "1625605059a90a62af": {
+      "type": "main-banner",
+      "blocks": {
+        "1625605059a90a62af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "1625605059a90a62af-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1625605059a90a62af-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1625605059a90a62af-0",
+        "1625605059a90a62af-1",
+        "1625605059a90a62af-2"
+      ],
+      "settings": {
+        "main_banner_image_fixed": true,
+        "verticle_text_box_position": "middle",
+        "horizontal_text_box_position": "center",
+        "color_scheme": "background-1"
+      }
     }
   },
   "order": [
@@ -341,6 +380,7 @@
     "16256026257a904595",
     "162560264205b2be65",
     "1625602691dfb2d237",
-    "162560277901d59c2e"
+    "162560277901d59c2e",
+    "1625605059a90a62af"
   ]
 }
