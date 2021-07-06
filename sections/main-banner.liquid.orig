@@ -60,6 +60,13 @@
   </div>
 </div>
 
+<<<<<<< HEAD
+{% endcomment %}
+
+<p>Main Banner</p>
+
+=======
+>>>>>>> da85b3d... add bootstrap
 {% schema %}
 {
   "name": "Main Banner",
@@ -68,18 +75,18 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "image",
+      "id": "main_banner_image",
       "label": "Background Image"
     },
     {
       "type": "checkbox",
-      "id": "fixed",
+      "id": "main_banner_image_fixed",
       "default": true,
       "label": "Fixed Image"
     },
     {
       "type": "select",
-      "id": "text_box_position_y",
+      "id": "verticle_text_box_position",
       "label": "Verticle Text Box Position",
       "options": [
         {
@@ -99,7 +106,7 @@
     },
     {
       "type": "select",
-      "id": "text_box_position_x",
+      "id": "horizontal_text_box_position",
       "label": "Horizontal Text Box Position",
       "options": [
         {
