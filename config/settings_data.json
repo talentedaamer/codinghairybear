@@ -1,5 +1,9 @@
 {
   "current": {
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -22,8 +26,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": 100,
-          "logo_position": "middle-left",
+          "logo": "shopify:\/\/shop_images\/Black.png",
+          "logo_width": 60,
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
