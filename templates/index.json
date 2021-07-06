@@ -129,7 +129,7 @@
         "1625602366a45cc75f-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "cool-dream",
             "secondary_background": false,
             "second_image": false,
             "image_padding": false
@@ -138,7 +138,7 @@
         "1625602366a45cc75f-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -154,6 +154,42 @@
         "desktop_layout": "left",
         "mobile_layout": "column"
       }
+    },
+    "162560245848166ece": {
+      "type": "collection-list",
+      "blocks": {
+        "162560245848166ece-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "162560245848166ece-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "162560245848166ece-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "162560245848166ece-0",
+        "162560245848166ece-1",
+        "162560245848166ece-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -161,6 +197,7 @@
     "featured_products",
     "image_text",
     "1625601708e1cb7522",
-    "1625602366a45cc75f"
+    "1625602366a45cc75f",
+    "162560245848166ece"
   ]
 }
