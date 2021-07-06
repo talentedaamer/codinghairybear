@@ -33,10 +33,10 @@
         "1625605059a90a62af-2"
       ],
       "settings": {
-        "main_banner_image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
-        "main_banner_image_fixed": true,
-        "verticle_text_box_position": "middle",
-        "horizontal_text_box_position": "center",
+        "image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
+        "fixed": true,
+        "text_box_position_y": "middle",
+        "text_box_position_x": "center",
         "color_scheme": "accent-1"
       }
     },
