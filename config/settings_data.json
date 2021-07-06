@@ -7,19 +7,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -43,43 +30,19 @@
               "heading": "Quick links",
               "menu": "main-menu"
             }
-          },
-          "19a3b19e-f53b-479e-b168-a205ceee290f": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "main-menu"
-            }
-          },
-          "4ad6b406-a04b-4c29-b114-b3e6bb18d432": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "main-menu"
-            }
-          },
-          "f43fe146-ed51-4a0a-9182-e8525de343e6": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "main-menu"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "19a3b19e-f53b-479e-b168-a205ceee290f",
-          "4ad6b406-a04b-4c29-b114-b3e6bb18d432",
-          "f43fe146-ed51-4a0a-9182-e8525de343e6"
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Sign up to our emails",
-          "show_social": true,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },
