@@ -1,1 +1,117 @@
-{}
+{
+  "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
+          },
+          "19a3b19e-f53b-479e-b168-a205ceee290f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
+          },
+          "4ad6b406-a04b-4c29-b114-b3e6bb18d432": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
+          },
+          "f43fe146-ed51-4a0a-9182-e8525de343e6": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu"
+            }
+          },
+          "a3765920-f93a-4eaa-8975-9e457f9efa66": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "c9d365ad-1728-4964-94ae-0f1beebb41ac": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "41fd81c1-c5b8-400a-82ac-e651282018c3": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "87c9218f-a8a7-4e1d-a6a7-b8e58428f51a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "19a3b19e-f53b-479e-b168-a205ceee290f",
+          "4ad6b406-a04b-4c29-b114-b3e6bb18d432",
+          "f43fe146-ed51-4a0a-9182-e8525de343e6",
+          "a3765920-f93a-4eaa-8975-9e457f9efa66",
+          "c9d365ad-1728-4964-94ae-0f1beebb41ac",
+          "41fd81c1-c5b8-400a-82ac-e651282018c3",
+          "87c9218f-a8a7-4e1d-a6a7-b8e58428f51a"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
