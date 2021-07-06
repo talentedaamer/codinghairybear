@@ -210,6 +210,47 @@
         "add_image_padding": false,
         "show_vendor": true
       }
+    },
+    "162560264205b2be65": {
+      "type": "image-banner",
+      "blocks": {
+        "162560264205b2be65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "162560264205b2be65-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "162560264205b2be65-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "162560264205b2be65-0",
+        "162560264205b2be65-1",
+        "162560264205b2be65-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thick-lush-green-forest.jpg",
+        "image_2": "shopify:\/\/shop_images\/golden-autumn-leaves.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": true
+      }
     }
   },
   "order": [
@@ -220,6 +261,7 @@
     "1625602366a45cc75f",
     "162560245848166ece",
     "162560258589e287fc",
-    "16256026257a904595"
+    "16256026257a904595",
+    "162560264205b2be65"
   ]
 }
