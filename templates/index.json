@@ -190,6 +190,26 @@
         "image_padding": true,
         "show_view_all": true
       }
+    },
+    "162560258589e287fc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "16256026257a904595": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true
+      }
     }
   },
   "order": [
@@ -198,6 +218,8 @@
     "image_text",
     "1625601708e1cb7522",
     "1625602366a45cc75f",
-    "162560245848166ece"
+    "162560245848166ece",
+    "162560258589e287fc",
+    "16256026257a904595"
   ]
 }
